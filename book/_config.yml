@@ -1,0 +1,38 @@
+#######################################################################################
+# Book settings
+title : Advanced topics for high school math and science
+author: Mauricio J. del Razo
+logo: 'my24cell.jpg'
+
+# Information about where the book exists on the web
+description: >-
+  A book for dvanced topics for high school math and science using Jupyter book and Jupyter notebooks.
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# #######################################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+#######################################################################################
+# Launch button settings
+repository:
+  url                         : https://github.com/maojrs/topics_book
+  path_to_book                : "book"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+latex:
+  latex_engine                : "xelatex"
+  latex_documents:
+    targetname: book.tex

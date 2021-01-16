@@ -12,6 +12,9 @@ description: >-
 # Execution settings
 execute:
   execute_notebooks           : cache
+  
+parse:
+  myst_extended_syntax: true
 
 #######################################################################################
 # HTML-specific settings
@@ -27,6 +30,7 @@ notebook_interface            : "notebook"
 repository:
   url                         : https://github.com/maojrs/topics_book
   path_to_book                : "book"
+  branch                      : master
 
 binder:
   binderhub_url               : "https://mybinder.org"

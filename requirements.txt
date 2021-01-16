@@ -1,4 +1,5 @@
 sphinx
 pandas
 matplotlib
+bokeh
 jupyter-book

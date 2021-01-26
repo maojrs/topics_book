@@ -3,13 +3,24 @@ jupytext:
   text_representation:
     extension: .md
     format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.9.1
 kernelspec:
   display_name: Python 3
   language: python
   name: python3
 ---
+
 (introduction)=
 # Introduction
+
+## Outline of notebooks
+
+1. Micro introduction with hook (a video or such).
+2. Start straight into the project
+3. Historical background and broader context
+4. Possible projects related to subject (in detail)
+5. References
 
 ## Overview
 
@@ -349,4 +360,3 @@ icon.
 
 Save it somewhere, navigate to it from the Jupyter dashboard and then
 run as discussed above.
-

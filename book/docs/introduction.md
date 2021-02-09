@@ -19,7 +19,7 @@ kernelspec:
 1. Micro introduction with hook (a video or such).
 2. Start straight into the project
 3. Historical background and broader context
-4. Possible projects related to subject (in detail)
+4. Possible projects related to subject (in detail and add difficulty stars to it)
 5. References
 
 ## Overview

@@ -1,12 +1,12 @@
 #######################################################################################
 # Book settings
-title : Advanced topics for high school math and science
+title : Advanced topics for math and science beginners
 author: Mauricio J. del Razo
 logo: 'my24cell.jpg'
 
 # Information about where the book exists on the web
 description: >-
-  A book for dvanced topics for high school math and science using Jupyter book and Jupyter notebooks.
+  A book introducing advanced topics for math and science beginners using Jupyter book and Jupyter notebooks.
 
 #######################################################################################
 # Execution settings

@@ -12,95 +12,47 @@ kernelspec:
 ---
 
 (introduction)=
+
 # Introduction
 
-## Outline of notebooks
+This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students interested in math and science. However each chapter is self-contained and develops different topics with a different focus, so it might as well be suitable for other levels and disciplines. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. It also uses python computer code to illustrate and viualize the concepts (see [Section on computer code](intro:computer_code)). 
 
-1. Micro introduction with hook (a video or such).
-2. Start straight into the project
-3. Historical background and broader context
-4. Possible projects related to subject (in detail and add difficulty stars to it)
-5. References
+The goal of this book is to introduce the topics in an accessible and fun way, with a computational and visual approach in mind. It is not intended to be a textbook nor to develop the concepts in all their rigor and detail. Another goal of the book is to serve as inspiration for class or personal projects. Each chapter constructs the fundamental theory and code implementations so the student can develop his or her own project. This could be from a simple extension of the topic presented to an and implementation of some of the suggested projects.
 
-## Overview
+The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). The book is intended to be read as the full unified interactive book. However, the individual chapters can be downloaded and ran locally to modify the code (see [Section on Jupyter notebooks](intro:jupyter)).
 
-In this lecture, you will learn how to
+To get started with the book, go directly to the [Section on getting started](intro:getting_started).
 
-1.  get a Python environment up and running
-2.  execute simple Python commands
-3.  run a sample program
-4.  install the code libraries that underpin these lectures
+## Outline of chapters
+Each chapter in the book introduces a topic, and it follows this basic outline:
 
-## Anaconda
+1. **Brief introduction:** a brief introduction to the topic, which likely uses some audiovisual media to illustrate the relevance and interesting aspects of the topic.
+2. **The topic presentation:** this is the main content of each chapter, where all the required concepts are presented through explanantions, visuals and interactive. This will likely contain several sections.  
+3. **Historical background and broader context:** a brief explanantion of the historical and current relevance of the concepts introduced is given, so the student can understand the broader context and impact of the topic discussed. 
+4. **Suggested projects:** a list of suggested projects. Each suggested project contains a small description that serves as a guideline, and each one is given a difficulty level from one to five stars. The difficulty level is just a guideline, but it will differ greatly depending on the backgroun of the student.
+5. **References:** relevant references to the text and for the student to investigate the topic further.
 
-The [core Python package](https://www.python.org/downloads/) is easy to
-install but *not* what you should choose for these lectures.
+(intro:getting_started)= 
+## Getting started
 
-These lectures require the entire scientific programming ecosystem,
-which
+To get started with the book is as simple as opening the [webpage](./index.ipynb) of the book and clicking on your chapter of choice. If you are interested modifying the notebooks in these book or developing your own projects using Jupyter notebooks, there are a couple of possibilities:
 
--   the core installation doesn\'t provide
--   is painful to install one piece at a time.
+- Run a web-based version of the notebooks using (binder)[https://mybinder.org/]. Simply follow the instructions in the [section on Binder](intro:binder). This will run the notebooks remotely and requires being connected to the internet.
+- Install Jupyter notebook following the instructions in the [Jupyter notebooks section](intro:jupyter). This will allow you to run the notebooks directly on your computer and offline. 
 
-Hence the best approach for our purposes is to install a Python
-distribution that contains
+(Still need to add more specific instructions...)
 
-1.  the core Python language **and**
-2.  compatible versions of the most popular scientific libraries.
+(intro:computer_code)= 
+## Computer code
+Throughout the book we use code snippets that produce output in the form of numerical values, plots or interactive plots. The programming language used in the book is python. To run the code interactively, we use Jupyter notebooks, a web-based interface for python (see [Section on jupyter notebooks](intro:jupyter)). Some notebooks will require additional python libraries: numpy and scipy for calculations; pandas and scikit learn for data manipulation; pyTorch for neural networks; matplotlib for static plots; and bokeh for interactive plots. If you run the interactive book online, this is not relevant to you. If you run the notebooks locally, all these libararies will be installed by following the instructions in the [Jupyter notebooks section](intro:jupyter).
+
+The code snippets in the interactive book are self-contained. This means that if you copy the code snippet and run it in another notebook it should run without requiring any other piece of code (except for the imported libraries). These code snippets are meant to be simple to understand for beginners in computer programming. More advance code snippets, such as the code to generate interactive plots, is hidden to avoid cluttering the presentation of the topic at hand. Nonetheless, for the interested reader, these can be accessed by click the plus sign on the right hand side. 
 
 
-The best such distribution is
-[Anaconda](https://www.anaconda.com/what-is-anaconda/).
-
-Anaconda is
-
--   very popular
--   cross-platform
--   comprehensive
--   completely unrelated to the Nicki Minaj song of the same name
-
-Anaconda also comes with a great package management system to organize
-your code libraries.
-
-```{note}
-All of what follows assumes that you adopt this recommendation!
-```
-
-(install_anaconda)=
-
-### Installing Anaconda
-
-To install Anaconda, [download](https://www.anaconda.com/download/) the
-binary and follow the instructions.
-
-Important points:
-
--   Install the latest version!
--   If you are asked during the installation process whether you\'d like
-    to make Anaconda your default Python installation, say yes.
-
-### Updating Anaconda
-
-Anaconda supplies a tool called `conda` to manage and
-upgrade your Anaconda packages.
-
-One `conda` command you should execute regularly is the one
-that updates the whole Anaconda distribution.
-
-As a practice run, please execute the following
-
-1.  Open up a terminal
-2.  Type `conda update anaconda`
-
-For more information on `conda`, type `conda
-help` in a terminal.
-
-(ipython_notebook)=
-
-## Jupyter Notebooks
-
+(intro:jupyter)= 
+## Jupyter notebooks
 [Jupyter](http://jupyter.org/) notebooks are one of the many possible
-ways to interact with Python and the scientific libraries.
+ways to interact with the Python language and the scientific libraries.
 
 They use a *browser-based* interface to Python with
 
@@ -123,13 +75,18 @@ in a Jupyter notebook
 A Jupyter notebook viewed in the browser
 ```
 
-While Jupyter isn\'t the only way to code in Python, it\'s great for
-when you wish to
+Next we will show how to install Jupyter notebooks on your computer. The easiest way is to install a python distribution called anaconda, which already has everything you need.
 
--   get started
--   test new ideas or interact with small pieces of code
--   share scientific ideas with students or colleagues
+### Installing Anaconda
 
+To install Anaconda, [download](https://www.anaconda.com/download/) the
+binary and follow the instructions.
+
+Important points:
+
+-   Install the latest version!
+-   If you are asked during the installation process whether you\'d like
+    to make Anaconda your default Python installation, say yes.
 
 ### Starting the Jupyter Notebook
 
@@ -228,135 +185,8 @@ To switch to
 The modal behavior of the Jupyter notebook is very efficient when you
 get used to it.
 
-#### Inserting Unicode (e.g., Greek Letters)
+(intro:binder)= 
+## Binder
+ -- to be written ...
 
-Python supports [unicode](https://docs.python.org/3/howto/unicode.html),
-allowing the use of characters such as $\alpha$ and $\beta$ as names in
-your code.
 
-In a code cell, try typing `\alpha` and then hitting the
-`tab` key on your keyboard.
-
-(a_test_program)=
-
-#### A Test Program
-
-Let\'s run a test program.
-
-Here\'s an arbitrary program we can use:
-<http://matplotlib.org/3.1.1/gallery/pie_and_polar_charts/polar_bar.html>.
-
-On that page, you\'ll see the following code
-
-```{code-cell} ipython3
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
-
-# Fixing random state for reproducibility
-np.random.seed(19680801)
-
-# Compute pie slices
-N = 20
-θ = np.linspace(0.0, 2 * np.pi, N, endpoint=False)
-radii = 10 * np.random.rand(N)
-width = np.pi / 4 * np.random.rand(N)
-colors = plt.cm.viridis(radii / 10.)
-
-ax = plt.subplot(111, projection='polar')
-ax.bar(θ, radii, width=width, bottom=0.0, color=colors, alpha=0.5)
-
-plt.show()
-```
-
-Don\'t worry about the details for now --- let\'s just run it and see
-what happens.
-
-The easiest way to run this code is to copy and paste it into a cell in
-the notebook.
-
-Hopefully you will get a similar plot.
-
-### Working with the Notebook
-
-Here are a few more tips on working with Jupyter notebooks.
-
-#### Tab Completion
-
-In the previous program, we executed the line `import numpy as np`
-
--   NumPy is a numerical library we\'ll work with in depth.
-
-After this import command, functions in NumPy can be accessed with
-`np.function_name` type syntax.
-
--   For example, try `np.random.randn(3)`.
-
-We can explore these attributes of `np` using the `Tab` key.
-
-For example, here we type `np.ran` and hit Tab
-
-```{figure} /_static/lecture_specific/getting_started/nb6.png
-:scale: 50%
-```
-
-Jupyter offers up the two possible completions, `random` and `rank`.
-
-In this way, the Tab key helps remind you of what\'s available and also
-saves you typing.
-
-(gs_help)=
-
-#### On-Line Help
-
-To get help on `np.rank`, say, we can execute `np.rank?`.
-
-Documentation appears in a split window of the browser, like so
-
-```{figure} /_static/lecture_specific/getting_started/nb6a.png
-:scale: 50%
-```
-
-Clicking on the top right of the lower split closes the on-line help.
-
-#### Other Content
-
-In addition to executing code, the Jupyter notebook allows you to embed
-text, equations, figures and even videos in the page.
-
-For example, here we enter a mixture of plain text and LaTeX instead of
-code
-
-```{figure} /_static/lecture_specific/getting_started/nb7.png
-:scale: 50%
-```
-
-Next we `Esc` to enter command mode and then type `m` to indicate that
-we are writing [Markdown](http://daringfireball.net/projects/markdown/),
-a mark-up language similar to (but simpler than) LaTeX.
-
-(You can also use your mouse to select `Markdown` from the `Code`
-drop-down box just below the list of menu items)
-
-Now we `Shift+Enter` to produce this
-
-```{figure} /_static/lecture_specific/getting_started/nb8.png
-:scale: 50%
-```
-
-### Sharing Notebooks
-
-Notebook files are just text files structured in
-[JSON](https://en.wikipedia.org/wiki/JSON) and typically ending with
-`.ipynb`.
-
-You can share them in the usual way that you share files --- or by
-using web services such as [nbviewer](http://nbviewer.jupyter.org/).
-
-The notebooks you see on that site are **static** html representations.
-
-To run one, download it as an `ipynb` file by clicking on the download
-icon.
-
-Save it somewhere, navigate to it from the Jupyter dashboard and then
-run as discussed above.

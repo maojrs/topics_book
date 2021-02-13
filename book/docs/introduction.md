@@ -48,6 +48,8 @@ Throughout the book we use code snippets that produce output in the form of nume
 
 The code snippets in the interactive book are self-contained. This means that if you copy the code snippet and run it in another notebook it should run without requiring any other piece of code (except for the imported libraries). These code snippets are meant to be simple to understand for beginners in computer programming. More advance code snippets, such as the code to generate interactive plots, is hidden to avoid cluttering the presentation of the topic at hand. Nonetheless, for the interested reader, these can be accessed by click the plus sign on the right hand side. 
 
+To copy code to your own notebook, we recommend to first copy the required libraries for the give chapter. These are accesible on the top of every chapter by clicking the plus sign. Once they are copied, make sure you run them by pressing shift + enter. After these are copied, any other code snippet that you copy from that chapter should run smoothly.
+
 
 (intro:jupyter)= 
 ## Jupyter notebooks
@@ -68,7 +70,7 @@ scientific computing ecosystem.
 [here](http://matplotlib.org/examples/pylab_examples/hexbin_demo.html))
 in a Jupyter notebook
 
-```{figure} /_static/lecture_specific/getting_started/jp_demo.png
+```{figure} /_static/lecture_specific/introduction/jp_demo.png
 :scale: 50%
 :name: jp_demo
 
@@ -100,7 +102,7 @@ Either
 
 If you use the second option, you will see something like this
 
-```{figure} /_static/lecture_specific/getting_started/starting_nb.png
+```{figure} /_static/lecture_specific/introduction/starting_nb.png
 :scale: 50%
 ```
 
@@ -116,7 +118,7 @@ local machine.
 Hopefully, your default browser has also opened up with a web page that
 looks something like this
 
-```{figure} /_static/lecture_specific/getting_started/nb.png
+```{figure} /_static/lecture_specific/introduction/nb.png
 :scale: 50%
 ```
 
@@ -130,7 +132,7 @@ right and select `Python 3` or similar.
 
 Here\'s what shows up on our machine:
 
-```{figure} /_static/lecture_specific/getting_started/nb2.png
+```{figure} /_static/lecture_specific/introduction/nb2.png
 :scale: 50%
 ```
 
@@ -154,7 +156,7 @@ flashing cursor.
 When you\'re ready to execute the code in a cell, hit `Shift-Enter`
 instead of the usual `Enter`.
 
-```{figure} /_static/lecture_specific/getting_started/nb3.png
+```{figure} /_static/lecture_specific/introduction/nb3.png
 :scale: 50%
 ```
 

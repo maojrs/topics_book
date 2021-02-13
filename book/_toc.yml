@@ -3,6 +3,3 @@
   sections:
     - file: docs/introduction
     - file: docs/brownian_motion
-    - file: docs/about_py
-    - file: docs/python_by_example
-    - file: docs/learn_more

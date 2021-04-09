@@ -15,21 +15,21 @@ kernelspec:
 
 # Introduction
 
-This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students interested in math and science. However each chapter is self-contained and develops different topics with a different focus, so it might as well be suitable for other levels and disciplines. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. It also uses python computer code to illustrate and viualize the concepts (see [Section on computer code](intro:computer_code)). 
+This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. However, given the diversity of topics, it might be suitable for other levels and disciplines. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using python computer code and interactive apps. When additional basic mathematical concepts are required for a given a topic, the text refers to specific sections of the **basic concepts** part of the book. 
 
-The goal of this book is to introduce the topics in an accessible and fun way, with a computational and visual approach in mind. It is not intended to be a textbook nor to develop the concepts in all their rigor and detail. Another goal of the book is to serve as inspiration for class or personal projects. Each chapter constructs the fundamental theory and code implementations so the student can develop his or her own project. This could be from a simple extension of the topic presented to an and implementation of some of the suggested projects.
+The goal of this book is to introduce the topics in an accessible and fun way, with a computational and visual approach in mind. It is not intended to be a textbook nor to develop the concepts in all their rigor and detail. Another goal of the book is to serve as inspiration for class or personal projects. Each chapter constructs the fundamental theory and code implementations so the student can develop his or her own project. This could be from a simple extension of the topic presented to an and implementation of some of the suggested projects within each chapter.
 
-The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). The book is intended to be read as the full unified interactive book. However, the individual chapters can be downloaded and ran locally to modify the code (see [Section on Jupyter notebooks](intro:jupyter)).
+The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). The book is intended to be read as the full unified interactive book. However, the individual chapters can be downloaded and ran locally to modify the code (see {ref}`Jupyter notebooks section <intro:jupyter>`).
 
-To get started with the book, go directly to the [Section on getting started](intro:getting_started).
+To get started with the book, go directly to the {ref}`getting started <intro:getting_started>` section.
 
 ## Outline of chapters
 Each chapter in the book introduces a topic, and it follows this basic outline:
 
 1. **Brief introduction:** a brief introduction to the topic, which likely uses some audiovisual media to illustrate the relevance and interesting aspects of the topic.
-2. **The topic presentation:** this is the main content of each chapter, where all the required concepts are presented through explanantions, visuals and interactive. This will likely contain several sections.  
+2. **The topic presentation:** this is the main content of each chapter, where all the required concepts are presented through explanantions, visuals and interactive apps. This will likely contain several sections.  
 3. **Historical background and broader context:** a brief explanantion of the historical and current relevance of the concepts introduced is given, so the student can understand the broader context and impact of the topic discussed. 
-4. **Suggested projects:** a list of suggested projects. Each suggested project contains a small description that serves as a guideline, and each one is given a difficulty level from one to five stars. The difficulty level is just a guideline, but it will differ greatly depending on the backgroun of the student.
+4. **Suggested projects:** a list of suggested projects. Each suggested project contains a small description that serves as a guideline, and each one is given a difficulty level from one to five stars. The difficulty level is just a guideline, but it will differ greatly depending on the background of the student.
 5. **References:** relevant references to the text and for the student to investigate the topic further.
 
 (intro:getting_started)= 
@@ -37,10 +37,12 @@ Each chapter in the book introduces a topic, and it follows this basic outline:
 
 To get started with the book is as simple as opening the [webpage](./index.ipynb) of the book and clicking on your chapter of choice. If you are interested modifying the notebooks in these book or developing your own projects using Jupyter notebooks, there are a couple of possibilities:
 
-- Run a web-based version of the notebooks using (binder)[https://mybinder.org/]. Simply follow the instructions in the [section on Binder](intro:binder). This will run the notebooks remotely and requires being connected to the internet.
-- Install Jupyter notebook following the instructions in the [Jupyter notebooks section](intro:jupyter). This will allow you to run the notebooks directly on your computer and offline. 
+- Run a web-based version of the notebooks using [binder](https://mybinder.org). Simply follow the instructions in the {ref}`section on Binder <intro:binder>`. This will run the notebooks remotely and requires being connected to the internet.
+- Install Jupyter notebook following the instructions in the {ref}`Jupyter notebooks section <intro:jupyter>`. This will allow you to run the notebooks directly on your computer and offline. 
 
 (Still need to add more specific instructions...)
+
+[](intro:getting_started)
 
 (intro:computer_code)= 
 ## Computer code
@@ -191,4 +193,6 @@ get used to it.
 ## Binder
  -- to be written ...
 
+```{code-cell} ipython3
 
+```

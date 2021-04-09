@@ -26,9 +26,9 @@ To get started with the book, go directly to the {ref}`getting started <intro:ge
 ## Outline of chapters
 Each chapter in the book introduces a topic, and it follows this basic outline:
 
-1. **Brief introduction:** a brief introduction to the topic, which likely uses some audiovisual media to illustrate the relevance and interesting aspects of the topic.
+1. **Introduction:** a brief introduction to the topic, which likely uses some audiovisual media to illustrate the relevance and interesting aspects of the topic. It might also include some historical context. 
 2. **The topic presentation:** this is the main content of each chapter, where all the required concepts are presented through explanantions, visuals and interactive apps. This will likely contain several sections.  
-3. **Historical background and broader context:** a brief explanantion of the historical and current relevance of the concepts introduced is given, so the student can understand the broader context and impact of the topic discussed. 
+3. **Concluding remarks:** this contains a brief summary of what was done in the notebook. It might also include additional historical context and the current relevance of the concepts introduced. The goal of this section is to show the student the broader context and impact of the topic discussed. 
 4. **Suggested projects:** a list of suggested projects. Each suggested project contains a small description that serves as a guideline, and each one is given a difficulty level from one to five stars. The difficulty level is just a guideline, but it will differ greatly depending on the background of the student.
 5. **References:** relevant references to the text and for the student to investigate the topic further.
 

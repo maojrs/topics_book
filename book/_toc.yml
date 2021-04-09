@@ -1,6 +1,6 @@
 # - file: README
 - file: docs/index
-  numbered: true
+  numbered: false
 
 - part: Advanced topics 
   chapters:

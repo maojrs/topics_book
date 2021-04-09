@@ -40,3 +40,6 @@ latex:
   latex_engine                : "xelatex"
   latex_documents:
     targetname: book.tex
+    
+bibtex_bibfiles:
+   - ./_bibliography/references.bib

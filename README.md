@@ -6,7 +6,8 @@
 
 
 ## About
-This is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps.
+This is an interactive book on advanced topics in mathematics and science for young students being initiated in the world of science. The level is suitable for last year high school students and first year bachelor's students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing specific mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps. At the end of each chapter, the book provides a list of suggested projects that build upon the material of the chapter, which are ideal for class hands-on projects. Each suggested project provides a guideline and is assigned a difficulty level from one to five.
+
 
 ## Getting started
 To get started just open the [book webpage](https://maojrs.github.io/topics_book/) and click on a chapter. 

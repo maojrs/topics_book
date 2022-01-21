@@ -8,5 +8,4 @@
   - file: docs/brownian_motion
 - part: Basic concepts
   chapters:
-  - file: docs/basic_concepts/programming_in_python
   - file: docs/basic_concepts/random_numbers

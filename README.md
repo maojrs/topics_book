@@ -1,4 +1,4 @@
-<img align="left" width="120" src="book/my24cell.jpg" alt="Advanced topics for high school math and science">
+<img align="left" width="130" src="book/my24cell.jpg" alt="Advanced topics for high school math and science">
 
 # [Advanced topics for math and science begginers](https://maojrs.github.io/topics_book/)
 

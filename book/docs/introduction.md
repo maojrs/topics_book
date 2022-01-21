@@ -37,7 +37,7 @@ Each chapter in the book introduces a topic, and it follows this basic outline:
 
 To get started with the book is as simple as opening the [book webpage](./index.ipynb) and clicking on your chapter of choice. If you are interested modifying the notebooks in these book or developing your own projects using Jupyter notebooks, there are a couple of possibilities:
 
-- Run a web-based version of the notebooks using [on Binder](https://mybinder.org/v2/gh/maojrs/topics_book/master?urlpath=tree/book/docs/index.ipynb). This will run the notebooks remotely and requires being connected to the internet.
+- Run a web-based version of the notebooks [on Binder](https://mybinder.org/v2/gh/maojrs/topics_book/master?urlpath=tree/book/docs/index.ipynb). This will run the notebooks remotely and requires being connected to the internet.
 - Install Jupyter notebook following the instructions in the {ref}`Jupyter notebooks section <intro:jupyter>`. This will allow you to run the notebooks directly on your computer and offline. 
 
 (Still need to add more specific instructions...)

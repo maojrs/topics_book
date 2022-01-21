@@ -35,7 +35,7 @@ Each chapter in the book introduces a topic, and it follows this basic outline:
 (intro:getting_started)= 
 ## Getting started
 
-To get started with the book is as simple as opening the [webpage](./index.ipynb) of the book and clicking on your chapter of choice. If you are interested modifying the notebooks in these book or developing your own projects using Jupyter notebooks, there are a couple of possibilities:
+To get started with the book is as simple as opening the [book webpage](./index.ipynb) and clicking on your chapter of choice. If you are interested modifying the notebooks in these book or developing your own projects using Jupyter notebooks, there are a couple of possibilities:
 
 - Run a web-based version of the notebooks using [binder](https://mybinder.org). Simply follow the instructions in the {ref}`section on Binder <intro:binder>`. This will run the notebooks remotely and requires being connected to the internet.
 - Install Jupyter notebook following the instructions in the {ref}`Jupyter notebooks section <intro:jupyter>`. This will allow you to run the notebooks directly on your computer and offline. 
@@ -55,139 +55,25 @@ To copy code to your own notebook, we recommend to first copy the required libra
 
 (intro:jupyter)= 
 ## Jupyter notebooks
-[Jupyter](http://jupyter.org/) notebooks are one of the many possible
-ways to interact with the Python language and the scientific libraries.
-
-They use a *browser-based* interface to Python with
-
--   The ability to write and execute Python commands.
--   Formatted output in the browser, including tables, figures,
-    animation, etc.
--   The option to mix in formatted text and mathematical expressions.
-
-Because of these features, Jupyter is now a major player in the
-scientific computing ecosystem.
-
-{numref}`Figure %s <jp_demo>` shows the execution of some code (borrowed from
-[here](http://matplotlib.org/examples/pylab_examples/hexbin_demo.html))
-in a Jupyter notebook
-
-```{figure} /_static/lecture_specific/introduction/jp_demo.png
-:scale: 50%
-:name: jp_demo
-
-A Jupyter notebook viewed in the browser
+### Clone the repository
+```
+git clone https://github.com/maojrs/topics_book.git
+cd topics_book
 ```
 
-Next we will show how to install Jupyter notebooks on your computer. The easiest way is to install a python distribution called anaconda, which already has everything you need.
+### Creating a Conda environment
+We recommend using the conda package manager to install all the dependencies required. The fastest way to start is to [install miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and then create a new environment. The requirements for the conda environment are provided in `environment.yml`, and the environment is created as follows:
 
-### Installing Anaconda
+1. `conda env create -f environment.yml`
+2. `conda activate topics_book`
 
-To install Anaconda, [download](https://www.anaconda.com/download/) the
-binary and follow the instructions.
-
-Important points:
-
--   Install the latest version!
--   If you are asked during the installation process whether you\'d like
-    to make Anaconda your default Python installation, say yes.
-
-### Starting the Jupyter Notebook
-
-Once you have installed Anaconda, you can start the Jupyter notebook.
-
-Either
-
--   search for Jupyter in your applications menu, or
--   open up a terminal and type `jupyter notebook`
-    - Windows users should substitute \"Anaconda command prompt\" for \"terminal\" in the previous line.
-
-If you use the second option, you will see something like this
-
-```{figure} /_static/lecture_specific/introduction/starting_nb.png
-:scale: 50%
+### Running the Jupyter notebooks
+To run the jupyter notebooks from your local copy of the book, do the following:
+```
+cd book/docs
+jupyter notebook
 ```
 
-The output tells us the notebook is running at `http://localhost:8888/`
-
--   `localhost` is the name of the local machine
--   `8888` refers to [port number](https://en.wikipedia.org/wiki/Port_%28computer_networking%29)
-    8888 on your computer
-
-Thus, the Jupyter kernel is listening for Python commands on port 8888 of our
-local machine.
-
-Hopefully, your default browser has also opened up with a web page that
-looks something like this
-
-```{figure} /_static/lecture_specific/introduction/nb.png
-:scale: 50%
-```
-
-What you see here is called the Jupyter *dashboard*.
-
-If you look at the URL at the top, it should be `localhost:8888` or
-similar, matching the message above.
-
-Assuming all this has worked OK, you can now click on `New` at the top
-right and select `Python 3` or similar.
-
-Here\'s what shows up on our machine:
-
-```{figure} /_static/lecture_specific/introduction/nb2.png
-:scale: 50%
-```
-
-The notebook displays an *active cell*, into which you can type Python
-commands.
-
-### Notebook Basics
-
-Let\'s start with how to edit code and run simple programs.
-
-#### Running Cells
-
-Notice that, in the previous figure, the cell is surrounded by a green
-border.
-
-This means that the cell is in *edit mode*.
-
-In this mode, whatever you type will appear in the cell with the
-flashing cursor.
-
-When you\'re ready to execute the code in a cell, hit `Shift-Enter`
-instead of the usual `Enter`.
-
-```{figure} /_static/lecture_specific/introduction/nb3.png
-:scale: 50%
-```
-
-(Note: There are also menu and button options for running code in a cell
-that you can find by exploring)
-
-#### Modal Editing
-
-The next thing to understand about the Jupyter notebook is that it uses
-a *modal* editing system.
-
-This means that the effect of typing at the keyboard **depends on which
-mode you are in**.
-
-The two modes are
-
-1.  Edit mode
-    -   Indicated by a green border around one cell, plus a blinking cursor
-    -   Whatever you type appears as is in that cell
-2.  Command mode
-    -   The green border is replaced by a grey (or grey and blue) border
-    -   Keystrokes are interpreted as commands --- for example, typing `b` adds a new cell below the current one
-
-To switch to
--   command mode from edit mode, hit the `Esc` key or `Ctrl-M`
--   edit mode from command mode, hit `Enter` or click in a cell
-
-The modal behavior of the Jupyter notebook is very efficient when you
-get used to it.
 
 (intro:binder)= 
 ## Binder

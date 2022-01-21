@@ -23,7 +23,7 @@ The interactive book is constructed as a collection of Jupyter notebooks, where 
 
 To get started with the book, go directly to the {ref}`getting started <intro:getting_started>` section.
 
-Note this book is an on-going work in progress
+(this book is currently a work in progress)
 
 ## Outline of chapters
 Each chapter in the book introduces a topic, and it follows this basic outline:

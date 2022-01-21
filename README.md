@@ -11,7 +11,11 @@ This book is an interactive book on advance topics in mathematics and science at
 ## Getting started
 To get started with the book is as simple as opening the [book webpage](https://maojrs.github.io/topics_book/) and clicking on your chapter of choice. 
 
-The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). If you are interested in modifying the code in these book or developing your own projects using Jupyter notebooks, you run the Jupyter notebooks locally on your computer by following the instructions below.
+The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). If you are interested in modifying the code in these book or developing your own projects using Jupyter notebooks, you have two option:
+
+- Run the notebooks remotely on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maojrs/topics_book/master?urlpath=tree/book/docs/index.ipynb)
+
+- Run the Jupyter notebooks locally on your computer by following the instructions below.
 
 ## Run Jupyter notebooks locally
 ### Clone the repository

@@ -2,7 +2,8 @@
 
 # Advanced topics for high school math and science
 
-A book on advanced topics for high school and first year bachelor math and science using Jupyter Book.
+ A book introducing advanced topics for math and science beginners using Jupyter book.
+
 
 ## About
 This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps.

@@ -13,7 +13,7 @@ To get started with the book is as simple as opening the [book webpage](https://
 
 The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). If you are interested in modifying the code in these book or developing your own projects using Jupyter notebooks, you run the Jupyter notebooks locally on your computer by following the instructions below.
 
-## Run Jupyter notebook locally
+## Run Jupyter notebooks locally
 ### Clone the repository
 ```
 git clone https://github.com/maojrs/topics_book.git

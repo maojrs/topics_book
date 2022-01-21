@@ -13,8 +13,7 @@ description: >-
 execute:
   execute_notebooks           : cache
   
-parse:
-  myst_extended_syntax: true
+
 
 #######################################################################################
 # HTML-specific settings

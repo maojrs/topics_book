@@ -2,13 +2,14 @@
 
 # Advanced topics for high school math and science
 
-A book on advanced topics for high school and first year bachelor math and science using Jupyter Book.
+A book on advanced topics for high school and first year bachelor math and science using Jupyter Book. 
+[Checkout the book here.](https://maojrs.github.io/topics_book/)
 
 ## About
 This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps.
 
 ## Getting started
-To get started with the book is as simple as opening the [book webpage](./index.ipynb) and clicking on your chapter of choice. 
+To get started with the book is as simple as opening the [book webpage](https://maojrs.github.io/topics_book/) and clicking on your chapter of choice. 
 
 The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). If you are interested in modifying the code in these book or developing your own projects using Jupyter notebooks, you run the Jupyter notebooks locally on your computer by following the instructions below.
 

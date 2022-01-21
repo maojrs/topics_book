@@ -1,6 +1,6 @@
-<img align="left" width="130" src="book/my24cell.jpg" alt="Advanced topics for high school math and science">
+<img align="left" width="140" src="book/my24cell.jpg" alt="Advanced topics for math and science beginners">
 
-# [Advanced topics for math and science begginers](https://maojrs.github.io/topics_book/)
+# [Advanced topics for math and science beginners](https://maojrs.github.io/topics_book/)
 
  A book introducing advanced topics for math and science beginners using Jupyter book.
 

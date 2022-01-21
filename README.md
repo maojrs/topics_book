@@ -6,12 +6,12 @@
 
 
 ## About
-This book is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps.
+This is an interactive book on advance topics in mathematics and science at a level suitable for young students being initiated in the world of science. The book is aimed at the level of last year high school students and first years bachelor students with an interest in math and science. Each chapter consists of an interesting self-contained advanced topic that requires developing some mathematical/scientific concepts. The book illustrates and viualizes the concepts using code and interactive apps.
 
 ## Getting started
-To get started with the book is as simple as opening the [book webpage](https://maojrs.github.io/topics_book/) and clicking on your chapter of choice. 
+To get started just open the [book webpage](https://maojrs.github.io/topics_book/) and click on a chapter. 
 
-The interactive book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The Jupyter notebooks are then unified into one interactive book using the [Jupyter Book project](https://jupyterbook.org). If you are interested in modifying the code in these book or developing your own projects using Jupyter notebooks, you have two option:
+The book is constructed as a collection of Jupyter notebooks, where each chapter corresponds to one notebook. The [Jupyter notebook](https://jupyter.org) is a free open-source web application that allows to create and share documents that contain live code, equations, visualizations and text. The notebooks are then gathered into one book using [Jupyter Book](https://jupyterbook.org). If you are interested in modifying the code or developing your own projects based on the book material, you have two options:
 
 - Run the notebooks remotely on Binder: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maojrs/topics_book/master?urlpath=tree/book/docs/index.ipynb)
@@ -25,13 +25,13 @@ git clone https://github.com/maojrs/topics_book.git
 cd topics_book
 ```
 
-### Creating a Conda environment
+### Create a Conda environment
 We recommend using the conda package manager to install all the dependencies required. The fastest way to start is to [install miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) and then create a new environment. The requirements for the conda environment are provided in `environment.yml`, and the environment is created as follows:
 
 1. `conda env create -f environment.yml`
 2. `conda activate topics_book`
 
-### Running the Jupyter notebooks
+### Run Jupyter notebooks
 To run the jupyter notebooks from your local copy of the book, do the following:
 ```
 cd book/docs
@@ -40,7 +40,7 @@ jupyter notebook
 
 ## Building the Jupyter Book
 
-From the root folder, run the following command in your terminal:
+You can also build the whole book from this repository. From the root folder, run the following command in your terminal:
 
 ```bash
 jb build book/
